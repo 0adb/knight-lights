@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    text-align: center;
+}
+#title {
+    text-align: left;
+    font-family: 'RadisSansRegular', 'Fredoka One', sans-serif; 
+    margin: 0;
+    font-size: 2em;
+    padding: 0.15em 1%;
+} 
+
+#maincontainer {
+    display: inline-block; 
+    width: 50%;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 1em 0; 
+}
+
+.light {
+    width: 9%;
+    position: relative;
+    margin: 0.5%;   
+    border: none; 
+} 
+.light.active {   
+    background-image: none;
+    border: none;
+}
+.light:before {
+	content: "";
+	float: left;
+	padding: 75% 0 75%; 	/* initial ratio of 1:1*/
+}
+ 
+#icon {
+    width: 3%;
+}

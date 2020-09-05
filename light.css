@@ -1,0 +1,35 @@
+html, body {
+    background-color: #47E65A;
+}
+#title {
+    background-color: #f3fcf4;
+    color: #2a3c24;
+	box-shadow: 0 0 6px 2px #0E6C19;
+    border-bottom: 3px solid #BBF6C2;
+} 
+
+#maincontainer {
+    background-color: #BBF6C2;
+	box-shadow: 0 0 8px 4px #BBF6C2;
+    color: white;
+}
+
+.light {
+    background-image: linear-gradient(to bottom, #470040, #818a00);
+}
+.light:hover  {
+    box-shadow: 0 0 6px 6px  rgba(112, 103, 112, 0.5);
+}
+.light:focus {
+    box-shadow: 0 0 4px 4px rgba(247, 102, 215, 0.5);
+}
+.light.active:hover  {
+    box-shadow: 0 0 6px 6px  rgba(247, 102, 215, 0.5);
+}
+.light.active:focus {
+    box-shadow: 0 0 4px 4px rgba(112, 103, 112, 0.75);
+}
+.light.active { 
+    background-color: #0E6C19;
+}
+ 
